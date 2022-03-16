@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-export class Navbar extends Component {
-    static propTypes = {}
+
+export class NavBar extends Component {
 
     render() {
         return (
@@ -17,8 +17,10 @@ export class Navbar extends Component {
                                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className='nav-link' href="/about">About</a>
+                                    <a className="nav-link" href="/about">About</a>
                                 </li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -28,4 +30,4 @@ export class Navbar extends Component {
     }
 }
 
-export default Navbar
+export default NavBar
